@@ -8,6 +8,5 @@ void Count() {
 	if (cnt >= Second * Minute * Hour) cnt = 0;	//1ŠÔ‚½‚Á‚½‚çƒŠƒZƒbƒg
 }
 bool Interval(int Number) {
-	if (cnt % Number == 0) return true;
-	return false;
+	return cnt % Number == 0;
 }

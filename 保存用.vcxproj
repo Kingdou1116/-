@@ -20,24 +20,23 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="1.cpp" />
-    <ClCompile Include="Change.cpp" />
+    <ClCompile Include="App.cpp" />
     <ClCompile Include="Count.cpp" />
-    <ClCompile Include="Draw.cpp" />
-    <ClCompile Include="init.cpp" />
     <ClCompile Include="Keyboard.cpp" />
-    <ClCompile Include="Preprocessing.cpp" />
-    <ClCompile Include="Random.cpp" />
-    <ClCompile Include="Update.cpp" />
+    <ClCompile Include="MapChip.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="PlayScene.cpp" />
+    <ClCompile Include="PushBlock.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Change.h" />
+    <ClInclude Include="App.h" />
+    <ClInclude Include="config.h" />
     <ClInclude Include="Count.h" />
-    <ClInclude Include="Draw.h" />
-    <ClInclude Include="init.h" />
     <ClInclude Include="Keyboard.h" />
-    <ClInclude Include="Preprocessing.h" />
-    <ClInclude Include="Random.h" />
-    <ClInclude Include="Update.h" />
+    <ClInclude Include="MapChip.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="PlayScene.h" />
+    <ClInclude Include="PushBlock.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
@@ -45,6 +44,7 @@
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>保存用</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>倉庫番</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
